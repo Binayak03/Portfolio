@@ -1,0 +1,18 @@
+.about {
+    background-color: var(--color-bg); /* Use your dark background from variables.css, e.g., #2b2b2b */
+    color: var(--color-text); /* Use your light text, e.g., #e0e0e0 */
+    padding: 20px; /* Optional, for spacing */
+    margin: 40px 0; /* Optional, for spacing */
+  }
+  
+  .title {
+    color: #00ced1; /* Teal accent, or use a variable if defined in variables.css */
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .description {
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }

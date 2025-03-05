@@ -1,0 +1,42 @@
+.skills {
+    background-color: var(--color-bg); /* Use your dark background, e.g., #2b2b2b */
+    color: var(--color-text); /* Use your light text, e.g., #e0e0e0 */
+    padding: 20px; /* Optional, for spacing */
+    margin: 40px 0; /* Optional, for spacing */
+  }
+  
+  .title {
+    color: #00ced1; /* Teal accent */
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .skillsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+  }
+  
+  .skillItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .skillItem:hover {
+    transform: translateY(-10px);
+  }
+  
+  .skillItem svg {
+    font-size: 2em;
+    color: #00ced1;
+    margin-bottom: 10px;
+  }
+  
+  .skillName {
+    margin: 0;
+    font-size: 1em;
+  }
