@@ -2,10 +2,10 @@ import React, { useRef } from 'react';
 import styles from './App.module.css';
 
 import Navbar from './components/Navbar/Navbar';
-import About from './components/about';
-import Skills from './components/skills';
-import Education from './components/education';
-import Contact from './components/contact';
+import About from './components/About';
+import Skills from './components/Skills';
+import Education from './components/Education';
+import Contact from './components/Contact';
 
 
 

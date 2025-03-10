@@ -6,8 +6,8 @@ import { FaReact, FaHtml5, FaCss3Alt, FaJs, FaJava, FaPython, FaNetworkWired } f
 function Skills({ref}) {
   const skills = [
     { name: 'React', icon: <FaReact /> },
-    { name: 'HTML', icon: <FaHtml5 /> },
-    { name: 'CSS', icon: <FaCss3Alt /> },
+    // { name: 'HTML', icon: <FaHtml5 /> },
+    // { name: 'CSS', icon: <FaCss3Alt /> },
     { name: 'JavaScript', icon: <FaJs /> },
     { name: 'Java', icon: <FaJava /> },
     { name: 'Python', icon: <FaPython /> },
